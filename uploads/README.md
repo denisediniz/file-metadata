@@ -1,0 +1,1 @@
+The files will be saved in the uploads folder and it needs to be tracked but git does not track empty directories. That's why there's a readme file here =)
