@@ -1,0 +1,31 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "Microservice to handle uploaded files metadata",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "set PORT=3000 && set DB_URI=mongodb://localhost:27017/file-metadata&& nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisediniz/file-metadata.git"
+  },
+  "author": "Denise Diniz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denisediniz/file-metadata/issues"
+  },
+  "homepage": "https://github.com/denisediniz/file-metadata#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongo-sanitize": "^1.0.1",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.19",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
